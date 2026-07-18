@@ -55,7 +55,7 @@ const About = () => {
       id="about"
       className="relative py-16 sm:py-20 lg:py-28 bg-white overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative">
+      <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 relative">
 
         {/* Blur Overlay */}
 
