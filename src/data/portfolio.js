@@ -21,7 +21,7 @@ export const portfolio = {
     github: "https://github.com/MohianAuion",
     linkedin: "https://linkedin.com/in/your-linkedin-username",
     facebook: "https://www.facebook.com/share/14js1TYcNfC/",
-    whatsapp: "https://twitter.com/your-twitter-username",
+    whatsapp: "https://wa.me/8801779331722",
   },
 
   // Hero Buttons
