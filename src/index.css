@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ===========================
+   Desktop Active Navigation
+=========================== */
+
+.active {
+  position: relative;
+  color: #000 !important;
+  font-weight: 900;
+  transition: all 0.3s ease;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 3px;
+  background: #ef4444;
+  border-radius: 9999px;
+}
+
+/* ===========================
+   Mobile Active Navigation
+=========================== */
+
+.mobile-active {
+  display: block;
+  width: 100%;
+  background: linear-gradient(90deg, #2cb66a, #22c27f);
+  color: #ffffff !important;
+  font-weight: 800;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(169, 238, 155, 0.25);
+  transition: all 0.3s ease;
+}
+
+/* Optional Hover Effect */
+
+.mobile-active:hover {
+  background: linear-gradient(90deg, #c73838, #e02929);
+  color: white;
+}
