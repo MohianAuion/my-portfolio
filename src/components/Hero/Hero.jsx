@@ -96,7 +96,7 @@ const Hero = () => {
               smooth={true}
               duration={600}
               offset={-80}
-              className="cursor-pointer inline-flex items-center justify-center px-4 sm:px-8 py-3 sm:py-4 rounded-xl border border-slate-300 hover:bg-[#f14236] hover:text-white transition text-sm sm:text-base font-medium"
+              className="cursor-pointer inline-flex items-center justify-center px-4 sm:px-8 py-3 sm:py-4 rounded-xl border border-slate-300 hover:bg-[#f14236] hover:text-white transition text-sm sm:hover:bg-[#f14236] sm:text-base font-medium"
             >
               <FaPhoneAlt className="mr-2" />
               Contact Me
