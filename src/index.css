@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -11,6 +13,13 @@ body {
   background: #f8fafc;
   color: #0f172a;
   overflow-x: hidden;
+}
+
+html,
+body,
+#root{
+    width:100%;
+    overflow-x:hidden;
 }
 
 * {
