@@ -93,10 +93,7 @@ const About = () => {
               </h2>
 
               <p className="mt-6 text-slate-600 leading-7 sm:leading-8 max-w-xl mx-auto lg:mx-0">
-                I'm a MERN Stack Developer passionate about building modern,
-                responsive and user-friendly web applications. I enjoy learning
-                new technologies and solving real-world problems through clean
-                and efficient code.
+                I'm an aspiring MERN Stack Developer with a strong interest in building modern, responsive, and user-friendly web applications. My journey began with frontend development using React, and I'm currently expanding my skills by learning backend technologies, including Node.js, Express.js, and MongoDB. I enjoy solving real-world problems through clean, maintainable code and continuously improving my knowledge by building practical projects. My goal is to grow into a skilled full-stack developer who creates efficient, scalable, and impactful web applications.
               </p>
 
               <button
