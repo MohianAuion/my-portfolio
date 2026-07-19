@@ -78,7 +78,7 @@ const Hero = () => {
   smooth={true}
   duration={600}
   offset={-80}
-  className="cursor-pointer bg-[#287c71] hover:bg-[#01333f] active:bg-[#01333f] active:scale-95 transition-all duration-200 text-white px-4 sm:px-8 py-3 sm:py-4 rounded-xl flex items-center justify-center gap-2 sm:gap-3 text-sm sm:text-base font-medium"
+ className="cursor-pointer bg-[#287c71] text-white px-4 sm:px-8 py-3 sm:py-4 rounded-xl shadow-lg hover:bg-[#01333f] transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 text-sm sm:text-base font-medium"
 >
   View My Work
   <FaArrowRight />
