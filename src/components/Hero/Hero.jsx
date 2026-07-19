@@ -60,7 +60,7 @@ const Hero = () => {
           <h2 className="text-xl sm:text-2xl lg:text-3xl text-[#287c71] font-semibold mt-4">
             MERN Stack Developer{" "}
             <span className="text-slate-900 text-base sm:text-lg lg:text-2xl">
-              (Learning Phase)
+              | Learning Phase
             </span>
           </h2>
 

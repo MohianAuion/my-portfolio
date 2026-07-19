@@ -46,7 +46,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="mb-16 text-center"
         >
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-600">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-[#287c71]">
             My Work
           </p>
 
@@ -54,7 +54,7 @@ const Projects = () => {
             Featured Projects
           </h2>
 
-          <div className="mx-auto mt-5 h-1.5 w-24 rounded-full bg-cyan-500"></div>
+          <div className="mx-auto mt-5 h-1.5 w-24 rounded-full bg-[#287c71]"></div>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-600">
             A collection of full-stack applications built using modern web
@@ -77,7 +77,7 @@ const Projects = () => {
               key={project.id}
               variants={cardVariants}
               whileHover={{ y: -10 }}
-              className="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-md transition-all duration-300 hover:border-cyan-400 hover:shadow-2xl"
+              className="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-md transition-all duration-300 hover:border-[#3e8b81] hover:shadow-2xl"
             >
               {/* Image */}
               <div className="relative overflow-hidden">
@@ -105,7 +105,7 @@ const Projects = () => {
                   {project.technologies.map((tech, index) => (
                     <span
                       key={index}
-                      className="rounded-full bg-cyan-100 px-3 py-1 text-xs font-semibold text-cyan-700 transition hover:bg-cyan-500 hover:text-white"
+                      className="rounded-full bg-cyan-100 px-3 py-1 text-xs font-semibold text-[#287c71] transition hover:bg-[#287c71] hover:text-white"
                     >
                       {tech}
                     </span>
@@ -118,7 +118,7 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-1 items-center justify-center gap-2 rounded-xl border border-slate-300 px-4 py-3 font-semibold text-slate-700 transition hover:border-slate-900 hover:bg-slate-900 hover:text-white"
+                    className="flex flex-1 items-center justify-center gap-2 rounded-xl border border-slate-300 px-4 py-3 font-semibold text-slate-700 transition bg-black text-white hover:border-[#41a396] hover:bg-black hover:text-gray-600"
                   >
                     <FaGithub size={18} />
                     GitHub
@@ -128,7 +128,7 @@ const Projects = () => {
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-cyan-600 px-4 py-3 font-semibold text-white transition hover:bg-cyan-700"
+                    className="flex flex-1 items-center justify-center gap-2 rounded-xl border border-stone-300  px-4 py-3 font-semibold transition hover:bg-[#287c71] hover:text-white"
                   >
                     <HiOutlineExternalLink size={20} />
                     Live Demo
@@ -148,10 +148,10 @@ const Projects = () => {
           className="mt-16 flex justify-center"
         >
           <a
-            href="https://github.com/"
+            href="https://github.com/MohianAuion"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border-2 border-cyan-600 px-8 py-3 font-semibold text-cyan-600 transition-all duration-300 hover:bg-cyan-600 hover:text-white"
+            className="rounded-full border-2 border-[#287c71] px-8 py-3 font-semibold text-[#287c71] transition-all duration-300 hover:bg-[#287c71] hover:text-white"
           >
             View More Projects
           </a>
