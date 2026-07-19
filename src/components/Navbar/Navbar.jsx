@@ -18,14 +18,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50">
       <div className="max-w-7xl mx-auto h-20 px-6 flex items-center justify-between">
-
         {/* Logo */}
         <div className="flex items-center">
-          <img
-            src={logo}
-            alt="Logo"
-            className="w-40 lg:w-60"
-          />
+          <img src={logo} alt="Logo" className="w-40 lg:w-60" />
         </div>
 
         {/* Desktop Menu */}
@@ -39,7 +34,7 @@ const Navbar = () => {
                 offset={-80}
                 duration={500}
                 activeClass="active"
-                className="cursor-pointer text-slate-700 font-medium hover:text-[#287c71] transition-all duration-300"
+                className="cursor-pointer text-slate-700 font-medium hover:text-black hover:font-extrabold transition-all duration-300"
               >
                 {menu.name}
               </Link>
@@ -49,13 +44,12 @@ const Navbar = () => {
 
         {/* Right Side */}
         <div className="flex items-center gap-3">
-
           {/* Resume Button (Always Visible) */}
           <a
             href="/resume/Mohian_Ahmed_Auion_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#287c71] hover:bg-[#01333f] text-white px-3 sm:px-4 md:px-5 py-2 rounded-lg transition duration-300 text-sm sm:text-base"
+            className="inline-flex items-center gap-2 bg-[#287c71] hover:bg-[#01333f] active:bg-[#01333f] active:scale-95 text-white px-3 sm:px-4 md:px-5 py-2 rounded-lg transition-all duration-300 text-sm sm:text-base"
           >
             <FaFilePdf />
             <span>Resume</span>
@@ -68,7 +62,6 @@ const Navbar = () => {
           >
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
-
         </div>
       </div>
 
@@ -83,7 +76,6 @@ const Navbar = () => {
             className="lg:hidden bg-white shadow-lg"
           >
             <ul className="flex flex-col p-4 gap-2">
-
               {menus.map((menu) => (
                 <li key={menu.name}>
                   <Link
@@ -100,7 +92,6 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
-
             </ul>
           </motion.div>
         )}
