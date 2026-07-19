@@ -49,7 +49,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="order-2 lg:order-1 text-center lg:text-left"
         >
-          <span className="inline-block px-4 py-2 rounded-full bg-indigo-100 text-[#287c71] font-medium mb-6">
+          <span className="inline-block px-4 py-2 rounded-full bg-emerald-100 text-[#0d0e0d] font-extralight mb-6">
             👋 Hi, I'm
           </span>
 
@@ -65,8 +65,7 @@ const Hero = () => {
           </h2>
 
           <p className="text-slate-600 mt-6 max-w-xl mx-auto lg:mx-0 leading-8">
-            I build modern, responsive and user-friendly web applications that
-            solve real-world problems using React, Node.js, Express and MongoDB.
+         I build modern, responsive, and user-friendly web applications using React and I'm currently expanding my skills in the MERN stack by learning backend development with Node.js, Express.js, and MongoDB. I enjoy solving real-world problems, writing clean code, and continuously improving my skills through hands-on projects.
           </p>
 
           {/* Buttons */}
@@ -75,15 +74,15 @@ const Hero = () => {
             {/* View Projects */}
 
             <Link
-              to="projects"
-              smooth={true}
-              duration={600}
-              offset={-80}
-              className="cursor-pointer bg-[#287c71] hover:bg-[#01333f] transition text-white px-4 sm:px-8 py-3 sm:py-4 rounded-xl flex items-center justify-center gap-2 sm:gap-3 text-sm sm:text-base font-medium"
-            >
-              View My Work
-              <FaArrowRight />
-            </Link>
+  to="projects"
+  smooth={true}
+  duration={600}
+  offset={-80}
+  className="cursor-pointer bg-[#287c71] hover:bg-[#01333f] active:bg-[#01333f] active:scale-95 transition-all duration-200 text-white px-4 sm:px-8 py-3 sm:py-4 rounded-xl flex items-center justify-center gap-2 sm:gap-3 text-sm sm:text-base font-medium"
+>
+  View My Work
+  <FaArrowRight />
+</Link>
 
             {/* Contact */}
 
