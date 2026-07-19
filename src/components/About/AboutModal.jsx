@@ -38,7 +38,7 @@ const AboutModal = ({ isOpen, onClose }) => {
             {/* Heading */}
 
             <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold text-[#287c71] pr-10 mb-10">
-              Get to Know Me
+              The Journey So Far
             </h2>
 
             {/* Content */}

@@ -14,11 +14,9 @@ import {
   SiExpress,
   SiMongodb,
   SiFirebase,
-
-
+  SiVercel,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
-
 
 export const skills = [
   {
@@ -103,14 +101,15 @@ export const skills = [
         color: "#F24E1E",
       },
       {
-      name: "VS Code",
-     icon: VscVscode,
-      color: "#007ACC",
-    
-
-    }
-
-      
+        name: "VS Code",
+        icon: VscVscode,
+        color: "#007ACC",
+      },
+      {
+        name: "Vercel",
+        icon: SiVercel,
+        color: "#000000",
+      },
     ],
   },
 ];

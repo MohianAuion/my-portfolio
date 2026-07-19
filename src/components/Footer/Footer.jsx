@@ -27,7 +27,7 @@ const Footer = () => {
             </h2>
 
             <p className="mt-4 text-slate-400 max-w-md leading-7">
-              Learning MERN Stack Development
+              Aspiring Full-Stack MERN Developer
             </p>
 
           </div>
