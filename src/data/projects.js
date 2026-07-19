@@ -1,11 +1,11 @@
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    image: "/projects/ecommerce.png",
+    title: "Payoo Mobile Banking",
+    image: "https://i.ibb.co.com/Wvq2jSkJ/Gemini-Generated-Image-lm2hzalm2hzalm2h.png",
 
     description:
-      "A full-stack e-commerce website with authentication, shopping cart, admin dashboard, and secure checkout.",
+      "Elevate Your Finances with Payoo.Payoo is more than a banking app—it’s your personal financial cockpit. We’ve stripped away the clutter to give you exactly what you need: powerful growth tools, a secure environment for your assets, and a fluid user experience that moves as fast as the market.",
 
     technologies: [
       "React",
@@ -16,17 +16,17 @@ export const projects = [
       "Tailwind CSS",
     ],
 
-    live: "#",
-    github: "#",
+    live: "https://mohianauion.github.io/payoo-mobile-bank/index.html",
+    github: "https://github.com/MohianAuion/payoo-mobile-bank",
   },
 
   {
     id: 2,
-    title: "Job Portal",
-    image: "/projects/jobportal.png",
+    title: "English জানালা",
+    image: "https://i.ibb.co.com/JWXvTWKW/Gemini-Generated-Image-5skgtc5skgtc5skg.png",
 
     description:
-      "A job portal where employers can post jobs and candidates can apply, manage profiles, and track applications.",
+      "English Janala serves as a digital window to the world, dedicated to providing high-quality English language education to students. Our platform is specifically designed to help learners overcome barriers to communication, build confidence, and prepare for academic and professional success.",
 
     technologies: [
       "React",
@@ -37,17 +37,17 @@ export const projects = [
       "Cloudinary",
     ],
 
-    live: "#",
-    github: "#",
+    live: "https://mohianauion.github.io/english_janala/",
+    github: "https://github.com/MohianAuion/english_janala",
   },
 
   {
     id: 3,
-    title: "AI Resume Builder",
-    image: "/projects/resume.png",
+    title: "GymBD",
+    image: "https://i.ibb.co.com/4cydqDh/Gemini-Generated-Image-n6f1c6n6f1c6n6f1.png",
 
     description:
-      "An AI-powered resume builder that helps users create professional resumes and export them as PDF.",
+      "Welcome to GymBD, where we believe fitness is more than just a workout—it's a total transformation. Located in a premier, industrial-chic facility, GymBD provides the ultimate environment for strength, community, and personal growth.",
 
     technologies: [
       "React",
@@ -57,7 +57,7 @@ export const projects = [
       "PDFKit",
     ],
 
-    live: "#",
-    github: "#",
+    live: "https://react-tailwind-gym-bd.vercel.app/",
+    github: "https://github.com/MohianAuion/react-tailwind-gymBD",
   },
 ];
