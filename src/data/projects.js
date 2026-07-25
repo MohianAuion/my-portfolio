@@ -1,6 +1,28 @@
 export const projects = [
   {
     id: 1,
+    title: "SolveJS",
+    image: "https://i.ibb.co.com/8DRvdZFD/Chat-GPT-Image-Jul-26-2026-01-43-54-AM.png",
+
+    description:
+      "SolveJS is an interactive JavaScript learning platform designed to help beginners and aspiring developers master JavaScript through hands-on practice. Learn core concepts like Variables, Conditionals, Loops, Arrays, Strings, Objects, and Functions with easy-to-follow theory, coding challenges, interview questions, and an integrated code editor. Practice, solve real-world problems, and build confidence—all in one place.",
+
+   technologies: [
+  "React",
+  "JavaScript",
+  "React Router",
+  "Firebase Auth",
+  "MongoDB",
+  "Tailwind CSS",
+  "DaisyUI",
+  "Vite",
+],
+
+    live: "https://solvejs.vercel.app/",
+    github: "https://github.com/MohianAuion/solve-js",
+  },
+  {
+    id: 2,
     title: "Payoo Mobile Banking",
     image: "https://i.ibb.co.com/Wvq2jSkJ/Gemini-Generated-Image-lm2hzalm2hzalm2h.png",
 
@@ -20,34 +42,14 @@ export const projects = [
     github: "https://github.com/MohianAuion/payoo-mobile-bank",
   },
 
+  
   {
-    id: 2,
+    id: 3,
     title: "English জানালা",
     image: "https://i.ibb.co.com/JWXvTWKW/Gemini-Generated-Image-5skgtc5skgtc5skg.png",
 
     description:
       "English Janala serves as a digital window to the world, dedicated to providing high-quality English language education to students. Our platform is specifically designed to help learners overcome barriers to communication, build confidence, and prepare for academic and professional success.",
-
-    technologies: [
-      "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "JWT",
-      "Cloudinary",
-    ],
-
-    live: "https://mohianauion.github.io/english_janala/",
-    github: "https://github.com/MohianAuion/english_janala",
-  },
-
-  {
-    id: 3,
-    title: "GymBD",
-    image: "https://i.ibb.co.com/4cydqDh/Gemini-Generated-Image-n6f1c6n6f1c6n6f1.png",
-
-    description:
-      "Welcome to GymBD, where we believe fitness is more than just a workout—it's a total transformation. Located in a premier, industrial-chic facility, GymBD provides the ultimate environment for strength, community, and personal growth.",
 
     technologies: [
       "React",
@@ -57,7 +59,7 @@ export const projects = [
       "PDFKit",
     ],
 
-    live: "https://react-tailwind-gym-bd.vercel.app/",
-    github: "https://github.com/MohianAuion/react-tailwind-gymBD",
+    live: "https://mohianauion.github.io/english_janala/",
+    github: "https://github.com/MohianAuion/english_janala",
   },
 ];
