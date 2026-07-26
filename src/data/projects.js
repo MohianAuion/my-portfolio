@@ -23,6 +23,27 @@ export const projects = [
   },
   {
     id: 2,
+    title: "The Dragon News",
+    image: "https://i.ibb.co.com/Wvq2jSkJ/Gemini-Generated-Image-lm2hzalm2hzalm2h.png",
+
+    description:
+      "The Dragon News is a responsive news web application developed with React, Firebase Authentication, React Router, Tailwind CSS, and DaisyUI. The platform allows users to browse categorized news, read detailed articles, authenticate securely, and enjoy a modern, intuitive interface across all devices. It demonstrates best practices in component-based architecture, protected routing, responsive design, and frontend application development.",
+
+    technologies: [
+  "React",
+  "JavaScript",
+  "React Router",
+  "Firebase Auth",
+  "Tailwind CSS",
+  "DaisyUI",
+  "Vite",
+],
+
+    live: "https://the-dragon-news-exclusive.vercel.app/",
+    github: "https://github.com/MohianAuion/the-dragon-news",
+  },
+  {
+    id: 3,
     title: "Payoo Mobile Banking",
     image: "https://i.ibb.co.com/Wvq2jSkJ/Gemini-Generated-Image-lm2hzalm2hzalm2h.png",
 
@@ -43,23 +64,5 @@ export const projects = [
   },
 
   
-  {
-    id: 3,
-    title: "English জানালা",
-    image: "https://i.ibb.co.com/JWXvTWKW/Gemini-Generated-Image-5skgtc5skgtc5skg.png",
-
-    description:
-      "English Janala serves as a digital window to the world, dedicated to providing high-quality English language education to students. Our platform is specifically designed to help learners overcome barriers to communication, build confidence, and prepare for academic and professional success.",
-
-    technologies: [
-      "React",
-      "OpenAI API",
-      "Node.js",
-      "MongoDB",
-      "PDFKit",
-    ],
-
-    live: "https://mohianauion.github.io/english_janala/",
-    github: "https://github.com/MohianAuion/english_janala",
-  },
+  
 ];
