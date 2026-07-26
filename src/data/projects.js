@@ -24,7 +24,7 @@ export const projects = [
   {
     id: 2,
     title: "The Dragon News",
-    image: "https://i.ibb.co.com/Wvq2jSkJ/Gemini-Generated-Image-lm2hzalm2hzalm2h.png",
+    image: "https://i.ibb.co.com/qMM4gpDf/Chat-GPT-Image-Jul-26-2026-06-59-53-PM.png",
 
     description:
       "The Dragon News is a responsive news web application developed with React, Firebase Authentication, React Router, Tailwind CSS, and DaisyUI. The platform allows users to browse categorized news, read detailed articles, authenticate securely, and enjoy a modern, intuitive interface across all devices. It demonstrates best practices in component-based architecture, protected routing, responsive design, and frontend application development.",
