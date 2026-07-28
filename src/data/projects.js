@@ -23,11 +23,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "The Dragon News",
-    image: "https://i.ibb.co.com/qMM4gpDf/Chat-GPT-Image-Jul-26-2026-06-59-53-PM.png",
+    title: "The Dhaka Times",
+    image: "https://i.ibb.co.com/CKjFZTbB/Chat-GPT-Image-Jul-28-2026-12-48-20-PM.png",
 
     description:
-      "The Dragon News is a responsive news web application developed with React, Firebase Authentication, React Router, Tailwind CSS, and DaisyUI. The platform allows users to browse categorized news, read detailed articles, authenticate securely, and enjoy a modern, intuitive interface across all devices. It demonstrates best practices in component-based architecture, protected routing, responsive design, and frontend application development.",
+      "The Dhaka Times is a responsive news web application developed with React, Firebase Authentication, React Router, Tailwind CSS, and DaisyUI. The platform allows users to browse categorized news, read detailed articles, authenticate securely, and enjoy a modern, intuitive interface across all devices. It demonstrates best practices in component-based architecture, protected routing, responsive design, and frontend application development.",
 
     technologies: [
   "React",
@@ -39,8 +39,8 @@ export const projects = [
   "Vite",
 ],
 
-    live: "https://the-dragon-news-exclusive.vercel.app/",
-    github: "https://github.com/MohianAuion/the-dragon-news",
+    live: "https://the-dhaka-times.vercel.app/",
+    github: "https://github.com/MohianAuion/the-dhaka-times",
   },
   {
     id: 3,
