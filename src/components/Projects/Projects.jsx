@@ -142,7 +142,7 @@ const Projects = () => {
       className="w-full flex items-center justify-center gap-2 rounded-xl px-3 sm:px-5 py-3 text-sm sm:text-base font-semibold text-black border border-gray-400 transition-all duration-300 hover:bg-red-500 hover:text-white hover:shadow-lg"
     >
       <HiOutlineExternalLink className="text-base lg:text-lg" />
-      <span>Live Demo</span>
+      <span>Live Link</span>
     </button>
   </a>
 </div>

@@ -39,7 +39,7 @@ export const projects = [
   "Vite",
 ],
 
-    live: "https://the-dhaka-times.vercel.app/",
+    live: "https://the-dhaka-times-exclusive.vercel.app/",
     github: "https://github.com/MohianAuion/the-dhaka-times",
   },
   {
