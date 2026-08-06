@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaBars, FaTimes, FaFilePdf } from "react-icons/fa";
 import logo from "../../assets/logo/logo.png";
+import resume from '../../../public/resume/mohian-ahmed-auion.pdf'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -46,7 +47,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           {/* Resume Button (Always Visible) */}
           <a
-            href="/resume/Mohian_Ahmed_Auion_Resume.pdf"
+            href={resume}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#287c71] hover:bg-[#01333f] active:bg-[#01333f] active:scale-95 text-white px-3 sm:px-4 md:px-5 py-2 rounded-lg transition-all duration-300 text-sm sm:text-base"
